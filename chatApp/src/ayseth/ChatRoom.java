@@ -1,6 +1,8 @@
 package ayseth;
 
-public class ChatRoom {
+import java.util.Stack;
+
+public class ChatRoom extends Stack{
 
 	private String chatRoomName;
 	private String roomDescription;
@@ -28,5 +30,8 @@ public class ChatRoom {
 	public void setRoomSize(int roomSize) {
 		this.roomSize = roomSize;
 	}
+	 public void joinChatEntry(ChatRoomEntry  chatentry){
+		    push(chatentry);
+	 }
 		
 }

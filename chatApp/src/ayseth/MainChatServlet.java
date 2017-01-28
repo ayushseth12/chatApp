@@ -20,7 +20,7 @@ import javax.servlet.http.HttpSession;
 /**
  * Servlet implementation class MainChatServlet
  */
-@WebServlet("/MainChatServlet")
+
 public class MainChatServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
@@ -33,9 +33,10 @@ public class MainChatServlet extends HttpServlet {
 	
 	public void init(){
 		ServletContext servletContext=getServletContext();
-		servletContext.setAttribute(chRoomPath, servletContext.getInitParameter("CHROOM_PATH"));
-		servletContext.setAttribute(roomListPath, servletContext.getInitParameter("ROOMLIST_PATH"));
-		servletContext.setAttribute(adminChatPath, servletContext.getInitParameter("ADMINCHAT_PATH"));
+//		if(servletContext!=null)
+		servletContext.setAttribute("chRoomPath", servletContext.getInitParameter("CHROOM_PATH"));
+		servletContext.setAttribute("roomListPath", servletContext.getInitParameter("ROOMLIST_PATH"));
+		servletContext.setAttribute("adminChatPath", servletContext.getInitParameter("ADMINCHAT_PATH"));
 	}
     public MainChatServlet() {
         // TODO Auto-generated constructor stub
