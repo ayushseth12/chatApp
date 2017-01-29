@@ -29,7 +29,7 @@
 	session.setAttribute("loginid", rs.getString(1));	%>
 	<head>
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-	<title>LetUsTalk - <%=session.getAttribute("type").equals("Admin")?"Admin Console":"User Console"%></title>
+	<title>AysethMessenger - <%=session.getAttribute("type").equals("Admin")?"Admin Console":"User Console"%></title>
 	<link href="mystyle.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>

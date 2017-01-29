@@ -6,7 +6,7 @@ if (session.getAttribute("login")==null){
 %>
 <html>
 <head>
-<title>LetUsTalk.com</title>
+<title>AysethMessenger.com</title>
 <link href="mystyle.css" rel="stylesheet" type="text/css">
 </head>  
 <body>
@@ -27,7 +27,7 @@ if (session.getAttribute("login")==null){
 	out.println(date+"&nbsp;&nbsp;<br>");
 	String login = (String)session.getAttribute("login");
 	if("no".equals(login))
-	out.println("Click for <a href='/chat/login.jsp?type=User'><font color=yellow>Login</a></font>");		
+	out.println("Click for <a href='/chatApp/login.jsp?type=User'><font color=yellow>Login</a></font>");		
 	else{
 	out.println("Hello <font color=yellow>"+ (String)session.getAttribute("user")+".<br> <a href=logout.jsp>Logout</a></font>");
 		if ("Admin".equals(session.getAttribute("type"))){

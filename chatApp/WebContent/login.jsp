@@ -1,7 +1,7 @@
 <%@ page language="java" import="java.util.*, java.text.*" errorPage="" %>
 <html>
 <head>
-<title>LetUsTalk - Login Console</title>
+<title>AysethMessenger - Login Console</title>
 <%
 String type=(String)request.getParameter("type");
 %>

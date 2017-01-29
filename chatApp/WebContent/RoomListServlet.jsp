@@ -1,7 +1,7 @@
 <%@ page language="java" import="java.sql.*, java.util.*, ayseth.*, java.text.*, java.net.*" errorPage="" %>
 <html>
 <head>
-<title>LetUsTalk! - Select Chat Room</title>
+<title>AysethMessenger! - Select Chat Room</title>
 <link href="mystyle.css" rel="stylesheet" type="text/css">
 <%
 String chRoomPath = (String)session.getAttribute("chRoomPath");

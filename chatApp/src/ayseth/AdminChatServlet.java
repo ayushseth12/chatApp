@@ -50,7 +50,7 @@ public class AdminChatServlet extends HttpServlet {
 		HashMap hashmap=null;
 		try{
 			Class.forName("com.mysql.jdbc.Driver");
-			Connection con=DriverManager.getConnection("jdbc:mysql//localhost:3306/chat","root","root");
+			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/chat","root","root");
 			synchronized (getServletContext()) {
 				hashmap=(HashMap) getServletContext().getAttribute("roomList");
 	if(hashmap==null){

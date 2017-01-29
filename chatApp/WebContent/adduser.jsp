@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>LetUsTalk.com/Admin Console/Adding User</title>
+<title>AysethMessenger.com/Admin Console/Adding User</title>
 <link href="mystyle.css" rel="stylesheet" type="text/css">
 </head>  
 <body>

@@ -8,7 +8,7 @@
    	ResultSet rs = stmt.executeQuery(selectquery);	
 %>
 <head>
-<title>LetUsTalk.com/Admin Console/All User List</title>
+<title>AysethMessenger.com/Admin Console/All User List</title>
 <link href="mystyle.css" rel="stylesheet" type="text/css">
 </head>
 <body>

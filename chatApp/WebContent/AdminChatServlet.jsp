@@ -1,7 +1,7 @@
 <%@ page language="java" import="java.sql.*, java.io.*, ayseth.*, java.util.*" errorPage="" %>
 <html>
 <head>
-<title>LetUsTalk.com/Admin Console/Configuring Chat Rooms</title>
+<title>AysethMessenger.com/Admin Console/Configuring Chat Rooms</title>
 <%
 String chRoomPath = (String)session.getAttribute("chRoomPath");
 String roomListPath = (String)session.getAttribute("roomListPath");
